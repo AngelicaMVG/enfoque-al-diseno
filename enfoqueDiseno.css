@@ -1,0 +1,180 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  text-align: center;
+  font-size: 2vw;
+  color: #fff;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+h2 {
+  font-size: 3vw;
+}
+
+.nav {
+  width: 100%;
+  list-style: none;
+  background: #fff;
+  font-size: 2vw;
+  padding: 3%;
+  position: fixed;
+  z-index: 1;
+}
+
+.contenedor-menu {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  text-decoration: none;
+  color: #000;
+}
+
+.menu-bar {
+  display: none;
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+}
+
+
+/*portadaInicio*/
+
+#portadaInicio {
+  background-image: url('assets/img/computer.jpg');
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center;
+  max-height: 1200px;
+  display: block;
+  top: 10%;
+  margin-top: 7%;
+  padding-top: 20%;
+}
+
+.myPicture {
+  width: 17%;
+  border-radius: 100%;
+  border-color: 1px solid #000;
+}
+
+.textoInicio {
+
+  color: #fff;
+  font-size: 5vw;
+  font-family: fantasy;
+}
+
+
+/*seccion intereses*/
+
+#intereses, #video, #unete {
+  font-size: 2vw;
+  font-family: fantasy;
+  padding-top: 4%;
+}
+
+#intereses {
+  background-color: #9BD1E5;
+
+}
+
+.interesesInfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5%;
+  padding: 1% 4%;
+}
+
+.imgIntereses {
+  width: 50%;
+}
+
+.texto {
+  width: 40%;
+}
+
+
+/*video*/
+
+#video {
+  background: #6A8EAE;
+}
+
+.contenedorVideo {
+  position: relative;
+  padding-bottom: 56%;
+  overflow: hidden;
+}
+
+.contenedorVideo iframe {
+  position: absolute;
+  width: 80%;
+  height: 60%;
+  left: 10%;
+}
+
+
+/*unete*/
+
+#unete {
+  width: 100%;
+  background-color: #57A773;
+}
+
+.contenedorForm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  width: 50%;
+  border: 1px solid #000;
+  border-radius: 5%;
+  margin-bottom: 5%;
+  background-color: #fff;
+}
+
+input, textarea {
+  font-family: fantasy;
+  border-style: double;
+  padding: 1%;
+  width: 60%;
+  margin-top: 5%;
+  font-size: 2vw;
+}
+
+.btn {
+  width: 40%;
+  font-size: 2vw;
+  margin: 5% 0;
+  border-radius: 10px;
+  font-family: fantasy;
+  padding: 2%;
+  background-color: #F78154;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #F78154;
+  border: 2px solid #000;
+}
+
+/*footer*/
+
+footer {
+  display: flex;
+  justify-content: center;
+  background: #157145;
+  font-family: fantasy;
+}
