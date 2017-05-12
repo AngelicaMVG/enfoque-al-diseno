@@ -3,13 +3,8 @@ body, html {
   margin: 0;
   overflow-x: hidden;
   text-align: center;
-  font-size: 2vw;
   color: #fff;
-}
-
-body, html {
-  width: 100%;
-  height: 100%;
+  font-family: satisfy;
 }
 
 h2 {
@@ -27,6 +22,7 @@ h2 {
 }
 
 .contenedor-menu {
+  margin-left: 5%;
   width: 80%;
   display: flex;
   justify-content: space-between;
@@ -64,9 +60,10 @@ h2 {
 }
 
 .textoInicio {
-  color: #000;
+  color: #fff;
+  text-shadow: .05em .04em black;
   font-size: 5vw;
-  font-family: fantasy;
+  font-family: Shrikhand;
 }
 
 
@@ -74,7 +71,6 @@ h2 {
 
 #intereses, #video, #unete {
   font-size: 2vw;
-  font-family: fantasy;
   padding-top: 4%;
 }
 
@@ -98,6 +94,8 @@ h2 {
 
 .texto {
   width: 40%;
+  font-family: sans-serif;
+  font-weight: 100;
 }
 
 
@@ -108,16 +106,21 @@ h2 {
 }
 
 .contenedorVideo {
+  width: 100%;
   position: relative;
-  padding-bottom: 56%;
+  padding-bottom: 60%;
   overflow: hidden;
 }
 
 .contenedorVideo iframe {
   position: absolute;
   width: 80%;
-  height: 60%;
+  height: 80%;
   left: 10%;
+}
+
+.youtube {
+  color: red;
 }
 
 
@@ -125,9 +128,11 @@ h2 {
 
 #unete {
   width: 100%;
-  background-color: #57A773;
+  background-color:#119DA4;
 }
-
+.sign {
+  color: rgb(69, 81, 241);
+}
 .contenedorForm {
   width: 100%;
   display: flex;
@@ -143,7 +148,7 @@ h2 {
 }
 
 input, textarea {
-  font-family: fantasy;
+  font-family: sans-serif;
   border-style: double;
   padding: 1%;
   width: 60%;
@@ -156,16 +161,48 @@ input, textarea {
   font-size: 2vw;
   margin: 5% 0;
   border-radius: 10px;
-  font-family: fantasy;
+  font-family: sans-serif;
+  font-weight: bold;
   padding: 2%;
   background-color: #F78154;
   color: #fff;
 }
 
 .btn:hover {
-  background-color: #fff;
   color: #F78154;
-  border: 2px solid #000;
+  background: #fff;
+  border: 1px solid #000;
+}
+
+/*contact me*/
+
+#contactMe {
+  background-color:  #57A773 ;
+  display: block;
+  justify-content: center;
+  padding: 4% 5% 5% 4%;
+
+}
+
+.contact{
+  width: 80%;
+}
+
+ul  li{
+  list-style: none;
+  display: inline-flex;
+  margin-left: 20%;
+}
+.red-social {
+  color: #fff;
+  font-size: 3vw;
+  text-align: center;
+  line-height: 45px;
+  outline: none;
+}
+
+.red-social:hover {
+  color: #040404
 }
 
 /*footer*/
@@ -174,7 +211,7 @@ footer {
   display: flex;
   justify-content: center;
   background: #157145;
-  font-family: fantasy;
+  font-size: 2vw;
 }
 
 
@@ -187,6 +224,9 @@ footer {
   #intereses {
     display: none;
   }
+  h2, #video , #unete , .red-social{
+    font-size: 1.5em;
+  }
 
   #video {
     margin-top: -7%;
@@ -198,13 +238,17 @@ footer {
     color: #000;
   }
 
+  #contactMe {
+    background-color: #119DA4;
+  }
+
   .nav {
     display: none;
   }
   .menu-bar {
      width: 100%;
      font-size: 2em;
-     font-family: Love Ya Like a Sister;
+     font-family: sans-serif;
      display: block;
      text-align: left;
      border-bottom: 2px solid #000;
@@ -221,4 +265,8 @@ footer {
 
   a>i {
     float: right;
+  }
+  footer {
+    font-size: 1em;
+  }
 }
