@@ -8,7 +8,7 @@ body, html {
 }
 
 h2 {
-  font-size: 3vw;
+  font-size: 4vw;
 }
 
 .nav {
@@ -31,6 +31,10 @@ h2 {
 .menu {
   text-decoration: none;
   color: #000;
+}
+
+.menu:hover {
+  color: #07ccd5;
 }
 
 .menu-bar {
@@ -141,7 +145,7 @@ h2 {
 
 .form {
   width: 50%;
-  border: 1px solid #000;
+  border: 3px solid #000;
   border-radius: 5%;
   margin-bottom: 5%;
   background-color: #fff;
@@ -208,6 +212,7 @@ ul  li{
 /*footer*/
 
 footer {
+  font-family: sans-serif;
   display: flex;
   justify-content: center;
   background: #157145;
@@ -221,6 +226,7 @@ footer {
   #portadaInicio {
     margin-top: -1%;
   }
+
   #intereses {
     display: none;
   }
@@ -252,6 +258,7 @@ footer {
      display: block;
      text-align: left;
      border-bottom: 2px solid #000;
+     z-index: 1;
    }
 
   .btn-menu {
@@ -268,5 +275,19 @@ footer {
   }
   footer {
     font-size: 1em;
+  }
+
+  .form {
+    width: 80%;
+  }
+
+  input , textarea {
+    width: 70%;
+    font-size: .5em;
+  }
+
+  .btn {
+    width: 60%;
+    font-size: .5em;
   }
 }
